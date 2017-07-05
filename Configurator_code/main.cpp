@@ -64,7 +64,7 @@ Storage Samsung_850_EVO_250GB("SSD Samsung 850 EVO 250 GB",89.99,250,1);
 
 //Case List
 Case Corsair_Spec_01("Corsair Spec 01",55.99,"ATX");
-Case Thermaltake_Core_V1("Thermaltake Core V1",43.99,"ATX");
+Case Thermaltake_Core_V1("Thermaltake Core V1",43.99,"mini-ITX");
 Case Corsair_Carbide_Air_540("Corsair Carbide Air 540",149.01,"ATX");
 
 
