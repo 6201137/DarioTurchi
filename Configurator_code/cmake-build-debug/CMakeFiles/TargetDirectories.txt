@@ -1,3 +1,3 @@
-C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir
-C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir
+C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

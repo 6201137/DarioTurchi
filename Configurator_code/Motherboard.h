@@ -6,7 +6,6 @@
 #define CONFIGURATOR_CODE_MOTHERBOARD_H
 
 #include"Component.h"
-#include"CPU.h"
 
 class Motherboard: public Component {
 
@@ -24,7 +23,7 @@ public:
 
     const std::string &getRamtype() const;
 
-    bool CompatibilityCheck(CPU* CPU);
+    bool CompatibilityCheck();
 
 
 private:
