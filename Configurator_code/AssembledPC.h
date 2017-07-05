@@ -1,5 +1,5 @@
 //
-// Created by aleda on 30/06/2017.
+// Created by aleda on 05/07/2017.
 //
 
 #ifndef CONFIGURATOR_CODE_ASSEMBLEDPC_H
@@ -12,50 +12,50 @@
 #include "Case.h"
 #include "RAM.h"
 #include "Storage.h"
-#include "ComponentsDatabase.h"
 
 
 class AssembledPC {
-
 public:
-    AssembledPC();
+    AssembledPC(CPU *CPU1, GraphicCard *GPU1, Motherboard *Motherboard1, PSU *PSU1, Case *Case1, RAM *RAM1,
+                Storage *Storage1);
 
-    const CPU &getCPU1() const;
+    CPU *getCPU1() const;
 
-    void setCPU1(const CPU &CPU1);
+    void setCPU1(CPU *CPU1);
 
-    const GraphicCard &getGraphicCard1() const;
+    GraphicCard *getGPU1() const;
 
-    void setGraphicCard1(const GraphicCard &GraphicCard1);
+    void setGPU1(GraphicCard *GPU1);
 
-    const Motherboard &getMotherboard1() const;
+    Motherboard *getMotherboard1() const;
 
-    void setMotherboard1(const Motherboard &Motherboard1);
+    void setMotherboard1(Motherboard *Motherboard1);
 
-    const PSU &getPSU1() const;
+    PSU *getPSU1() const;
 
-    void setPSU1(const PSU &PSU1);
+    void setPSU1(PSU *PSU1);
 
-    const Case &getCase1() const;
+    Case *getCase1() const;
 
-    void setCase1(const Case &Case1);
+    void setCase1(Case *Case1);
 
-    const RAM &getRAM1() const;
+    RAM *getRAM() const;
 
-    void setRAM1(const RAM &RAM1);
+    void setRAM(RAM *RAM);
 
-    const Storage &getStorage1() const;
+    Storage *getStorage() const;
 
-    void setStorage1(const Storage &Storage1);
+    void setStorage(Storage *Storage);
 
 private:
-    CPU CPU1;
-    GraphicCard GraphicCard1;
-    Motherboard Motherboard1;
-    PSU PSU1;
-    Case Case1;
-    RAM RAM1;
-    Storage Storage1;
+    CPU* CPU1;
+    GraphicCard* GPU1;
+    Motherboard* Motherboard1;
+    PSU* PSU1;
+    Case* Case1;
+    RAM* RAM1;
+    Storage* Storage1;
+
 };
 
 

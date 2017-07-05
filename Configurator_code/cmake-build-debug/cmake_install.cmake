@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/aleda/CLionProjects/Configurator_code
+# Install script for directory: C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
