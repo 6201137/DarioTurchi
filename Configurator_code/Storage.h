@@ -9,7 +9,9 @@
 
 class Storage : public Component {
 public:
-    Storage(const std::string &name, double price, int capacity, bool ssd);
+    Storage(const std::string &name, float price, int power, int capacity, bool ssd);
+
+    virtual ~Storage();
 
     int getCapacity() const;
 
@@ -18,7 +20,6 @@ public:
 private:
     int capacity;
     bool ssd;
-    int power=10;
 
 };
 

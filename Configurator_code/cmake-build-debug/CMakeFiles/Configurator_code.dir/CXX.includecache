@@ -17,14 +17,22 @@ GraphicCard.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/GraphicCard.h
 Motherboard.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Motherboard.h
-PSU.h
-C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.h
 Case.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Case.h
 RAM.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.h
 Storage.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Storage.h
+
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPCDecorator.cpp
+AssembledPCDecorator.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPCDecorator.h
+
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPCDecorator.h
+AssembledPC.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPC.h
+PSU.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.h
 
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/CPU.cpp
 CPU.h
@@ -35,8 +43,12 @@ Component.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Component.h
 
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Case.cpp
+Motherboard.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Motherboard.h
 Case.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Case.h
+string
+-
 
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Case.h
 Component.h
@@ -49,6 +61,18 @@ C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Component.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Component.h
 iostream
 -
+
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Controller.cpp
+Controller.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Controller.h
+
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Controller.h
+iostream
+-
+AssembledPCDecorator.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPCDecorator.h
+AssembledPC.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPC.h
 
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/GraphicCard.cpp
 GraphicCard.h
@@ -75,6 +99,8 @@ C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/CPU.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.cpp
 PSU.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.h
+AssembledPCDecorator.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPCDecorator.h
 
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.h
 Component.h
@@ -85,6 +111,8 @@ RAM.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.h
 
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.h
+Motherboard.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Motherboard.h
 Component.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Component.h
 
@@ -113,4 +141,8 @@ RAM.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.h
 Storage.h
 C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Storage.h
+AssembledPC.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPC.h
+AssembledPCDecorator.h
+C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPCDecorator.h
 

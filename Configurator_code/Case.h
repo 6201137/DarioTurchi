@@ -5,18 +5,20 @@
 #ifndef CONFIGURATOR_CODE_CASE_H
 #define CONFIGURATOR_CODE_CASE_H
 
+
 #include"Component.h"
 
 class Case : public Component {
 public:
-    Case(const std::string &name, double price, const std::string &size);
+    Case(const std::string &name, float price, int power, const std::string &size);
+
+    virtual ~Case();
 
     const std::string &getSize() const;
 
-    bool CompatibilityCheck();
+    bool CompatibilityCheck(Motherboard* motherboard);
 private:
     std::string size;
-    int power=10; //whit a stock fan
 };
 
 

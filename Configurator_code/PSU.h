@@ -7,16 +7,18 @@
 
 #include "Component.h"
 
+
+
 class PSU : public Component {
 public:
-    PSU(const std::string &name, double price, int power2use);
+    PSU(const std::string &name, float price, int power, int power2use);
+
+    virtual ~PSU();
 
     int getPower2use() const;
-    bool CompatibilityCheck();
-
 private:
     int power2use;
-    int power=0;
+
 };
 
 

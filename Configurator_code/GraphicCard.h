@@ -10,7 +10,9 @@
 class GraphicCard: public Component {
 
 public:
-    GraphicCard(const std::string &name, double price, int power, int memory);
+    GraphicCard(const std::string &name, float price, int power, int memory);
+
+    virtual ~GraphicCard();
 
 private:
     int memory;

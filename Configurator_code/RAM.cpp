@@ -14,11 +14,20 @@ int RAM::getDimension() const {
     return dimension;
 }
 
-RAM::RAM(const std::string &name, double price, const std::string &ramtype, int dimension) : Component(name,
-                                                                                                                  price
-                                                                                                                  ),
-                                                                                                        ramtype(ramtype),
-                                                                                                        dimension(
-                                                                                                                dimension) {}
 
-bool CompatibilityCheck(){};
+
+bool RAM::CompatibilityCheck(Motherboard *motherboard){
+    if (motherboard->getRamtype()== this->getRamtype())
+        return 1;
+    else
+        return 0;
+
+
+
+}
+
+RAM::~RAM() {
+
+}
+
+RAM::RAM(const std::string &name, float price, int power, const std::string &ramtype, int dimension) : Component(name, price, power), ramtype(ramtype), dimension(dimension) {};

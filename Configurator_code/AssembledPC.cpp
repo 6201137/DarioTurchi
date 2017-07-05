@@ -28,13 +28,7 @@ void AssembledPC::setMotherboard1(Motherboard *Motherboard1) {
     AssembledPC::Motherboard1 = Motherboard1;
 }
 
-PSU *AssembledPC::getPSU1() const {
-    return PSU1;
-}
 
-void AssembledPC::setPSU1(PSU *PSU1) {
-    AssembledPC::PSU1 = PSU1;
-}
 
 Case *AssembledPC::getCase1() const {
     return Case1;
@@ -60,6 +54,11 @@ void AssembledPC::setStorage(Storage * Storage1) {
     AssembledPC::Storage1 = Storage1;
 }
 
-AssembledPC::AssembledPC(CPU *CPU1, GraphicCard *GPU1, Motherboard *Motherboard1, PSU *PSU1, Case *Case1, RAM *RAM1,
-                         Storage *Storage1) : CPU1(CPU1), GPU1(GPU1), Motherboard1(Motherboard1), PSU1(PSU1),
-                                              Case1(Case1), RAM1(RAM1), Storage1(Storage1) {}
+
+AssembledPC::~AssembledPC() {
+
+}
+
+AssembledPC::AssembledPC(CPU *CPU1, GraphicCard *GPU1, Motherboard *Motherboard1, Case *Case1, RAM *RAM1,
+                         Storage *Storage1) : CPU1(CPU1), GPU1(GPU1), Motherboard1(Motherboard1), Case1(Case1),
+                                              RAM1(RAM1), Storage1(Storage1) {}

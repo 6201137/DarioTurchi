@@ -4,5 +4,9 @@
 
 #include "GraphicCard.h"
 
-GraphicCard::GraphicCard(const std::string &name, double price, int power, int memory) : Component(name, price, power),
+GraphicCard::GraphicCard(const std::string &name, float price, int power, int memory) : Component(name, price, power),
                                                                                          memory(memory) {}
+
+GraphicCard::~GraphicCard() {
+
+}

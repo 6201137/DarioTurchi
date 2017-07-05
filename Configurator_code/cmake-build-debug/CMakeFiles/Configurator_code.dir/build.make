@@ -296,6 +296,54 @@ CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj.provides: CMakeFiles/Config
 CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj
 
 
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../AssembledPCDecorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\AssembledPCDecorator.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\AssembledPCDecorator.cpp
+
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\AssembledPCDecorator.cpp > CMakeFiles\Configurator_code.dir\AssembledPCDecorator.cpp.i
+
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\AssembledPCDecorator.cpp -o CMakeFiles\Configurator_code.dir\AssembledPCDecorator.cpp.s
+
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.provides: CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj
+
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Configurator_code.dir/Controller.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\Controller.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\Controller.cpp
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/Controller.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\Controller.cpp > CMakeFiles\Configurator_code.dir\Controller.cpp.i
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/Controller.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\Controller.cpp -o CMakeFiles\Configurator_code.dir\Controller.cpp.s
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/Controller.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj.provides: CMakeFiles/Configurator_code.dir/Controller.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Controller.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/Controller.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/Controller.cpp.obj
+
+
 # Object files for target Configurator_code
 Configurator_code_OBJECTS = \
 "CMakeFiles/Configurator_code.dir/main.cpp.obj" \
@@ -307,7 +355,9 @@ Configurator_code_OBJECTS = \
 "CMakeFiles/Configurator_code.dir/Case.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/RAM.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/Storage.cpp.obj" \
-"CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj"
+"CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/Controller.cpp.obj"
 
 # External object files for target Configurator_code
 Configurator_code_EXTERNAL_OBJECTS =
@@ -322,11 +372,13 @@ Configurator_code.exe: CMakeFiles/Configurator_code.dir/Case.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/RAM.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/Storage.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/Controller.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/build.make
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/linklibs.rsp
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/objects1.rsp
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Configurator_code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Configurator_code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Configurator_code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -344,6 +396,8 @@ CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/Case
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/RAM.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/Storage.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/Controller.cpp.obj.requires
 
 .PHONY : CMakeFiles/Configurator_code.dir/requires
 

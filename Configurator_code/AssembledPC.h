@@ -8,7 +8,6 @@
 #include "CPU.h"
 #include "GraphicCard.h"
 #include "Motherboard.h"
-#include "PSU.h"
 #include "Case.h"
 #include "RAM.h"
 #include "Storage.h"
@@ -16,8 +15,9 @@
 
 class AssembledPC {
 public:
-    AssembledPC(CPU *CPU1, GraphicCard *GPU1, Motherboard *Motherboard1, PSU *PSU1, Case *Case1, RAM *RAM1,
-                Storage *Storage1);
+    AssembledPC(CPU *CPU1, GraphicCard *GPU1, Motherboard *Motherboard1, Case *Case1, RAM *RAM1, Storage *Storage1);
+
+    virtual ~AssembledPC();
 
     CPU *getCPU1() const;
 
@@ -31,9 +31,6 @@ public:
 
     void setMotherboard1(Motherboard *Motherboard1);
 
-    PSU *getPSU1() const;
-
-    void setPSU1(PSU *PSU1);
 
     Case *getCase1() const;
 
@@ -51,7 +48,6 @@ private:
     CPU* CPU1;
     GraphicCard* GPU1;
     Motherboard* Motherboard1;
-    PSU* PSU1;
     Case* Case1;
     RAM* RAM1;
     Storage* Storage1;

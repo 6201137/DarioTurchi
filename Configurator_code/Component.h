@@ -11,8 +11,8 @@ class Component {
 
 public:
 
-    Component(const std::string &name, double price, int power) : name(name), price(price), power(power) {}
-    Component(const std::string &name, double price) : name(name), price(price) {}
+    Component(const std::string &name, float price, int power) : name(name), price(price), power(power) {}
+    Component(const std::string &name, float price) : name(name), price(price) {}
 
     virtual ~Component() {
 
@@ -22,7 +22,7 @@ public:
         return name;
     }
 
-    double getPrice() const {
+    float getPrice() const {
         return price;
     }
 
@@ -35,7 +35,7 @@ private:
 
 
     std::string name;
-    double price;
+    float price;
     int power;
 
 };

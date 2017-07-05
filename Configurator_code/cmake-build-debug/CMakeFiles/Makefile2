@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator
 CMakeFiles/Configurator_code.dir/all:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/depend
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target Configurator_code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Configurator_code"
 .PHONY : CMakeFiles/Configurator_code.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/Configurator_code.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Configurator_code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles 13
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Configurator_code.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Configurator_code.dir/rule

@@ -8,20 +8,46 @@ CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../Case.h
 CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../Component.h
 CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../GraphicCard.h
 CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../Motherboard.h
-CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../PSU.h
 CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../RAM.h
 CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj: ../Storage.h
+
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../AssembledPC.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../AssembledPCDecorator.cpp
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../AssembledPCDecorator.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../CPU.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../Case.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../Component.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../GraphicCard.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../Motherboard.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../PSU.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../RAM.h
+CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj: ../Storage.h
 
 CMakeFiles/Configurator_code.dir/CPU.cpp.obj: ../CPU.cpp
 CMakeFiles/Configurator_code.dir/CPU.cpp.obj: ../CPU.h
 CMakeFiles/Configurator_code.dir/CPU.cpp.obj: ../Component.h
 
+CMakeFiles/Configurator_code.dir/Case.cpp.obj: ../CPU.h
 CMakeFiles/Configurator_code.dir/Case.cpp.obj: ../Case.cpp
 CMakeFiles/Configurator_code.dir/Case.cpp.obj: ../Case.h
 CMakeFiles/Configurator_code.dir/Case.cpp.obj: ../Component.h
+CMakeFiles/Configurator_code.dir/Case.cpp.obj: ../Motherboard.h
 
 CMakeFiles/Configurator_code.dir/Component.cpp.obj: ../Component.cpp
 CMakeFiles/Configurator_code.dir/Component.cpp.obj: ../Component.h
+
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../AssembledPC.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../AssembledPCDecorator.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../CPU.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Case.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Component.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Controller.cpp
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Controller.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../GraphicCard.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Motherboard.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../PSU.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../RAM.h
+CMakeFiles/Configurator_code.dir/Controller.cpp.obj: ../Storage.h
 
 CMakeFiles/Configurator_code.dir/GraphicCard.cpp.obj: ../Component.h
 CMakeFiles/Configurator_code.dir/GraphicCard.cpp.obj: ../GraphicCard.cpp
@@ -32,11 +58,21 @@ CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../Component.h
 CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../Motherboard.cpp
 CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../Motherboard.h
 
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../AssembledPC.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../AssembledPCDecorator.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../CPU.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../Case.h
 CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../Component.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../GraphicCard.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../Motherboard.h
 CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../PSU.cpp
 CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../PSU.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../RAM.h
+CMakeFiles/Configurator_code.dir/PSU.cpp.obj: ../Storage.h
 
+CMakeFiles/Configurator_code.dir/RAM.cpp.obj: ../CPU.h
 CMakeFiles/Configurator_code.dir/RAM.cpp.obj: ../Component.h
+CMakeFiles/Configurator_code.dir/RAM.cpp.obj: ../Motherboard.h
 CMakeFiles/Configurator_code.dir/RAM.cpp.obj: ../RAM.cpp
 CMakeFiles/Configurator_code.dir/RAM.cpp.obj: ../RAM.h
 
@@ -44,6 +80,8 @@ CMakeFiles/Configurator_code.dir/Storage.cpp.obj: ../Component.h
 CMakeFiles/Configurator_code.dir/Storage.cpp.obj: ../Storage.cpp
 CMakeFiles/Configurator_code.dir/Storage.cpp.obj: ../Storage.h
 
+CMakeFiles/Configurator_code.dir/main.cpp.obj: ../AssembledPC.h
+CMakeFiles/Configurator_code.dir/main.cpp.obj: ../AssembledPCDecorator.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../CPU.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../Case.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../Component.h

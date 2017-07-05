@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Configurator_code.dir/RAM.cpp.obj"
   "CMakeFiles/Configurator_code.dir/Storage.cpp.obj"
   "CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj"
+  "CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj"
+  "CMakeFiles/Configurator_code.dir/Controller.cpp.obj"
   "Configurator_code.pdb"
   "Configurator_code.exe"
   "Configurator_code.exe.manifest"

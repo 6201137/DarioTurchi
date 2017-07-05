@@ -5,21 +5,23 @@
 #ifndef CONFIGURATOR_CODE_RAM_H
 #define CONFIGURATOR_CODE_RAM_H
 
+#include "Motherboard.h"
 #include "Component.h"
 
 class RAM : public Component {
 public:
-    RAM(const std::string &name, double price, const std::string &ramtype, int dimension);
+    RAM(const std::string &name, float price, int power, const std::string &ramtype, int dimension);
+
+    virtual ~RAM();
 
     const std::string &getRamtype() const;
 
     int getDimension() const;
-
+    bool CompatibilityCheck(Motherboard *motherboard);
 private:
     std::string ramtype;
     int dimension;
-    int power=10;
-    bool CompatibilityCheck();
+
 
 };
 

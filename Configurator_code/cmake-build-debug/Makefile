@@ -149,6 +149,33 @@ AssembledPC.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPC.cpp.s
 .PHONY : AssembledPC.cpp.s
 
+AssembledPCDecorator.obj: AssembledPCDecorator.cpp.obj
+
+.PHONY : AssembledPCDecorator.obj
+
+# target to build an object file
+AssembledPCDecorator.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj
+.PHONY : AssembledPCDecorator.cpp.obj
+
+AssembledPCDecorator.i: AssembledPCDecorator.cpp.i
+
+.PHONY : AssembledPCDecorator.i
+
+# target to preprocess a source file
+AssembledPCDecorator.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.i
+.PHONY : AssembledPCDecorator.cpp.i
+
+AssembledPCDecorator.s: AssembledPCDecorator.cpp.s
+
+.PHONY : AssembledPCDecorator.s
+
+# target to generate assembly for a file
+AssembledPCDecorator.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.s
+.PHONY : AssembledPCDecorator.cpp.s
+
 CPU.obj: CPU.cpp.obj
 
 .PHONY : CPU.obj
@@ -229,6 +256,33 @@ Component.s: Component.cpp.s
 Component.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Component.cpp.s
 .PHONY : Component.cpp.s
+
+Controller.obj: Controller.cpp.obj
+
+.PHONY : Controller.obj
+
+# target to build an object file
+Controller.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Controller.cpp.obj
+.PHONY : Controller.cpp.obj
+
+Controller.i: Controller.cpp.i
+
+.PHONY : Controller.i
+
+# target to preprocess a source file
+Controller.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Controller.cpp.i
+.PHONY : Controller.cpp.i
+
+Controller.s: Controller.cpp.s
+
+.PHONY : Controller.s
+
+# target to generate assembly for a file
+Controller.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Controller.cpp.s
+.PHONY : Controller.cpp.s
 
 GraphicCard.obj: GraphicCard.cpp.obj
 
@@ -404,6 +458,9 @@ help:
 	@echo ... AssembledPC.obj
 	@echo ... AssembledPC.i
 	@echo ... AssembledPC.s
+	@echo ... AssembledPCDecorator.obj
+	@echo ... AssembledPCDecorator.i
+	@echo ... AssembledPCDecorator.s
 	@echo ... CPU.obj
 	@echo ... CPU.i
 	@echo ... CPU.s
@@ -413,6 +470,9 @@ help:
 	@echo ... Component.obj
 	@echo ... Component.i
 	@echo ... Component.s
+	@echo ... Controller.obj
+	@echo ... Controller.i
+	@echo ... Controller.s
 	@echo ... GraphicCard.obj
 	@echo ... GraphicCard.i
 	@echo ... GraphicCard.s

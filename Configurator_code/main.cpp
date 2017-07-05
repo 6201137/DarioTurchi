@@ -8,6 +8,8 @@
 #include "Case.h"
 #include "RAM.h"
 #include "Storage.h"
+#include "AssembledPC.h"
+#include "AssembledPCDecorator.h"
 
 //CPU List
 
@@ -42,37 +44,44 @@ Motherboard Gigabyte_GA_H270_HD3("Gigabyte H270 HD3",110,"lga1151","H270",0,"ATX
 
 //PSU List
 
-PSU STDPSU("Standard PSU",0,0);
-PSU XFX_550TS("XFX 550 TS",65.50,500);
-PSU Antec_VP_400P("Antec VP 400P",39.99,350);
+PSU STDPSU("Standard PSU",0,0,0);
+PSU XFX_550TS("XFX 550 TS",65.50,500,0);
+PSU Antec_VP_400P("Antec VP 400P",39.99,350,0);
 
 
 
 //RAM List
 
-RAM STDRAM("Standard RAM",0,"Standard Ramtype",0);
-RAM Kingston_HyperX_Fury_2x4("Kingston HyperX Fury 2x4 GB",67,"DDR3",8);
-RAM Kingston_HyperX_Fury_HX421C14FB2("Kingston_HyperX_Fury_HX421C14FB2",63,"DDR4",8);
+RAM STDRAM("Standard RAM",0,0,"Standard Ramtype",0);
+RAM Kingston_HyperX_Fury_2x4("Kingston HyperX Fury 2x4 GB",67, 10, "DDR3",8);
+RAM Kingston_HyperX_Fury_HX421C14FB2("Kingston_HyperX_Fury_HX421C14FB2",63, 10, "DDR4",8);
 
 
 
 //Storage List
-Storage STDStorage("Standard Storage",0,0,0);
-Storage WD_Blue_1TB("HDD WD Blue 1 TB",53.10,1,0);
-Storage Samsung_850_EVO_250GB("SSD Samsung 850 EVO 250 GB",89.99,250,1);
+Storage STDStorage("Standard Storage",0, 0, 0,0);
+Storage WD_Blue_1TB("HDD WD Blue 1 TB",53.10, 10, 1,0);
+Storage Samsung_850_EVO_250GB("SSD Samsung 850 EVO 250 GB",89.99, 10, 250,1);
 
 
 //Case List
-Case Corsair_Spec_01("Corsair Spec 01",55.99,"ATX");
-Case Thermaltake_Core_V1("Thermaltake Core V1",43.99,"mini-ITX");
-Case Corsair_Carbide_Air_540("Corsair Carbide Air 540",149.01,"ATX");
+Case Corsair_Spec_01("Corsair Spec 01",55.99, 10,"ATX");
+Case Thermaltake_Core_V1("Thermaltake Core V1",43.99,10,"mini-ITX");
+Case Corsair_Carbide_Air_540("Corsair Carbide Air 540", 149.01, 10,"ATX");
 
 
 
 
 
 int main() {
-    std::cout<<STDCPU.isOc();
-    std::cout<<Asus_M5a78l3_0.CompatibilityCheck(&AMD_FX4100);
+    std::cout<<STDCPU.isOc()<<std::endl;
+    std::cout<<Asus_M5a78l3_0.CompatibilityCheck(&AMD_FX4100)<<std::endl;
+    std::cout<<Corsair_Carbide_Air_540.CompatibilityCheck(&Asus_M5a78l3_0);
+    std::cout<<Kingston_HyperX_Fury_2x4.CompatibilityCheck(&Asus_M5a78l3_0);
+    AssembledPC ASS(&AMD_FX4100,&Asus7750,&Asus_M5a78l3_0,&Corsair_Carbide_Air_540, &Kingston_HyperX_Fury_2x4, &WD_Blue_1TB);
+    AssembledPCDecorator COSO(&ASS);
+    COSO.setPSU1(&XFX_550TS);
+    std::cout<<COSO.totalCost()<<std::endl;
+    std::cout<<COSO.totalWatt()<<std::endl;
 
 }

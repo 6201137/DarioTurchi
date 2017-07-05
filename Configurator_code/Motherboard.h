@@ -11,8 +11,10 @@
 class Motherboard: public Component {
 
 public:
-    Motherboard(const std::string &name, double price, const std::string &socket, const std::string &chipset,
+    Motherboard(const std::string &name, float price, const std::string &socket, const std::string &chipset,
                 bool oc, const std::string &size, const std::string &ramtype);
+
+    virtual ~Motherboard();
 
     const std::string &getSocket() const;
 

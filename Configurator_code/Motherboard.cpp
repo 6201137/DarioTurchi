@@ -29,12 +29,16 @@ const std::string &Motherboard::getRamtype() const {
 
 
 bool Motherboard::CompatibilityCheck(CPU* CPU){
-     if((CPU->getSocket().compare(this->getSocket())!=0) || CPU->isOc() != this->isOc())
-         return 0;
-     else
+     if((CPU->getSocket()==this->getSocket()) && CPU->isOc() == this->isOc())
          return 1;
+     else
+         return 0;
 }
 
-Motherboard::Motherboard(const std::string &name, double price, const std::string &socket,
+Motherboard::Motherboard(const std::string &name, float price, const std::string &socket,
                          const std::string &chipset, bool oc, const std::string &size, const std::string &ramtype)
-        : Component(name, price), socket(socket), chipset(chipset), oc(oc), size(size), ramtype(ramtype) {};
+        : Component(name, price), socket(socket), chipset(chipset), oc(oc), size(size), ramtype(ramtype) {}
+
+Motherboard::~Motherboard() {
+
+};

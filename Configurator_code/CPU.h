@@ -11,7 +11,11 @@ class CPU : public Component {
 
 public:
 
-    CPU(const std::string &name, double price, int power, const std::string &socket, bool oc) : Component(name, price, power), socket(socket), oc(oc) {}
+    CPU(const std::string &name, float price, int power, const std::string &socket, bool oc) : Component(name, price, power), socket(socket), oc(oc) {}
+
+    virtual ~CPU() {
+
+    }
 
     const std::string &getSocket() const {
         return socket;
