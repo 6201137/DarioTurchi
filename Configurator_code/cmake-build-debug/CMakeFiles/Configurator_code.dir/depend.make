@@ -27,7 +27,6 @@ CMakeFiles/Configurator_code.dir/GraphicCard.cpp.obj: ../Component.h
 CMakeFiles/Configurator_code.dir/GraphicCard.cpp.obj: ../GraphicCard.cpp
 CMakeFiles/Configurator_code.dir/GraphicCard.cpp.obj: ../GraphicCard.h
 
-CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../CPU.h
 CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../Component.h
 CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../Motherboard.cpp
 CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj: ../Motherboard.h
@@ -47,6 +46,7 @@ CMakeFiles/Configurator_code.dir/Storage.cpp.obj: ../Storage.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../CPU.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../Case.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../Component.h
+CMakeFiles/Configurator_code.dir/main.cpp.obj: ../ComponentsDatabase.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../GraphicCard.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../Motherboard.h
 CMakeFiles/Configurator_code.dir/main.cpp.obj: ../PSU.h
