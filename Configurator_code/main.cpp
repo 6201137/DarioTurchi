@@ -45,9 +45,9 @@ Motherboard Gigabyte_GA_H270_HD3("Gigabyte H270 HD3",110,"lga1151","H270",0,"ATX
 
 //PSU List
 
-PSU STDPSU("Standard PSU",0,0,0);
-PSU XFX_550TS("XFX 550 TS",65.50,500,0);
-PSU Antec_VP_400P("Antec VP 400P",39.99,350,0);
+PSU STDPSU("Standard PSU",0,0);
+PSU XFX_550TS("XFX 550 TS",65.50,500);
+PSU Antec_VP_400P("Antec VP 400P",39.99,350);
 
 
 

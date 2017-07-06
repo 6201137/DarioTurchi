@@ -7,6 +7,7 @@
 
 
 #include"Component.h"
+#include"Motherboard.h"
 
 class Case : public Component {
 public:

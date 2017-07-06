@@ -385,28 +385,34 @@
 		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/main.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CPUFixture.cpp">
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/AssembledPCDecoratorTest.cpp">
+			<Option target="Configurator_code"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/AssembledPCTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
 		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CPUTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CaseFixture.cpp">
-			<Option target="Configurator_code"/>
-		</Unit>
 		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CaseTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/GraphicCardFixture.cpp">
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/ComponentTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
 		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/GraphicCardTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/PSUFixture.cpp">
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/MotherboardTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
 		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/PSUTest.cpp">
+			<Option target="Configurator_code"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/RAMTest.cpp">
+			<Option target="Configurator_code"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/StorageTest.cpp">
 			<Option target="Configurator_code"/>
 		</Unit>
 		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/googlemock/src/gmock-all.cc">

@@ -16,14 +16,16 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/RAM.cpp.obj"
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Storage.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/Storage.cpp.obj"
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/main.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/main.cpp.obj"
-  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CPUFixture.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj"
+  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/AssembledPCDecoratorTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj"
+  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/AssembledPCTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj"
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CPUTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj"
-  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CaseFixture.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj"
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CaseTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj"
-  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/GraphicCardFixture.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj"
+  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/ComponentTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj"
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/GraphicCardTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj"
-  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/PSUFixture.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj"
+  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/MotherboardTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj"
   "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/PSUTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj"
+  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/RAMTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj"
+  "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/StorageTest.cpp" "C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

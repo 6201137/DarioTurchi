@@ -542,32 +542,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/CPUFixture.obj: test/CPUFixture.cpp.obj
+test/AssembledPCDecoratorTest.obj: test/AssembledPCDecoratorTest.cpp.obj
 
-.PHONY : test/CPUFixture.obj
+.PHONY : test/AssembledPCDecoratorTest.obj
 
 # target to build an object file
-test/CPUFixture.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj
-.PHONY : test/CPUFixture.cpp.obj
+test/AssembledPCDecoratorTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj
+.PHONY : test/AssembledPCDecoratorTest.cpp.obj
 
-test/CPUFixture.i: test/CPUFixture.cpp.i
+test/AssembledPCDecoratorTest.i: test/AssembledPCDecoratorTest.cpp.i
 
-.PHONY : test/CPUFixture.i
+.PHONY : test/AssembledPCDecoratorTest.i
 
 # target to preprocess a source file
-test/CPUFixture.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.i
-.PHONY : test/CPUFixture.cpp.i
+test/AssembledPCDecoratorTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.i
+.PHONY : test/AssembledPCDecoratorTest.cpp.i
 
-test/CPUFixture.s: test/CPUFixture.cpp.s
+test/AssembledPCDecoratorTest.s: test/AssembledPCDecoratorTest.cpp.s
 
-.PHONY : test/CPUFixture.s
+.PHONY : test/AssembledPCDecoratorTest.s
 
 # target to generate assembly for a file
-test/CPUFixture.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.s
-.PHONY : test/CPUFixture.cpp.s
+test/AssembledPCDecoratorTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.s
+.PHONY : test/AssembledPCDecoratorTest.cpp.s
+
+test/AssembledPCTest.obj: test/AssembledPCTest.cpp.obj
+
+.PHONY : test/AssembledPCTest.obj
+
+# target to build an object file
+test/AssembledPCTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj
+.PHONY : test/AssembledPCTest.cpp.obj
+
+test/AssembledPCTest.i: test/AssembledPCTest.cpp.i
+
+.PHONY : test/AssembledPCTest.i
+
+# target to preprocess a source file
+test/AssembledPCTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.i
+.PHONY : test/AssembledPCTest.cpp.i
+
+test/AssembledPCTest.s: test/AssembledPCTest.cpp.s
+
+.PHONY : test/AssembledPCTest.s
+
+# target to generate assembly for a file
+test/AssembledPCTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.s
+.PHONY : test/AssembledPCTest.cpp.s
 
 test/CPUTest.obj: test/CPUTest.cpp.obj
 
@@ -596,33 +623,6 @@ test/CPUTest.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.s
 .PHONY : test/CPUTest.cpp.s
 
-test/CaseFixture.obj: test/CaseFixture.cpp.obj
-
-.PHONY : test/CaseFixture.obj
-
-# target to build an object file
-test/CaseFixture.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj
-.PHONY : test/CaseFixture.cpp.obj
-
-test/CaseFixture.i: test/CaseFixture.cpp.i
-
-.PHONY : test/CaseFixture.i
-
-# target to preprocess a source file
-test/CaseFixture.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.i
-.PHONY : test/CaseFixture.cpp.i
-
-test/CaseFixture.s: test/CaseFixture.cpp.s
-
-.PHONY : test/CaseFixture.s
-
-# target to generate assembly for a file
-test/CaseFixture.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.s
-.PHONY : test/CaseFixture.cpp.s
-
 test/CaseTest.obj: test/CaseTest.cpp.obj
 
 .PHONY : test/CaseTest.obj
@@ -650,32 +650,32 @@ test/CaseTest.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.s
 .PHONY : test/CaseTest.cpp.s
 
-test/GraphicCardFixture.obj: test/GraphicCardFixture.cpp.obj
+test/ComponentTest.obj: test/ComponentTest.cpp.obj
 
-.PHONY : test/GraphicCardFixture.obj
+.PHONY : test/ComponentTest.obj
 
 # target to build an object file
-test/GraphicCardFixture.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj
-.PHONY : test/GraphicCardFixture.cpp.obj
+test/ComponentTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj
+.PHONY : test/ComponentTest.cpp.obj
 
-test/GraphicCardFixture.i: test/GraphicCardFixture.cpp.i
+test/ComponentTest.i: test/ComponentTest.cpp.i
 
-.PHONY : test/GraphicCardFixture.i
+.PHONY : test/ComponentTest.i
 
 # target to preprocess a source file
-test/GraphicCardFixture.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.i
-.PHONY : test/GraphicCardFixture.cpp.i
+test/ComponentTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.i
+.PHONY : test/ComponentTest.cpp.i
 
-test/GraphicCardFixture.s: test/GraphicCardFixture.cpp.s
+test/ComponentTest.s: test/ComponentTest.cpp.s
 
-.PHONY : test/GraphicCardFixture.s
+.PHONY : test/ComponentTest.s
 
 # target to generate assembly for a file
-test/GraphicCardFixture.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.s
-.PHONY : test/GraphicCardFixture.cpp.s
+test/ComponentTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.s
+.PHONY : test/ComponentTest.cpp.s
 
 test/GraphicCardTest.obj: test/GraphicCardTest.cpp.obj
 
@@ -704,32 +704,32 @@ test/GraphicCardTest.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.s
 .PHONY : test/GraphicCardTest.cpp.s
 
-test/PSUFixture.obj: test/PSUFixture.cpp.obj
+test/MotherboardTest.obj: test/MotherboardTest.cpp.obj
 
-.PHONY : test/PSUFixture.obj
+.PHONY : test/MotherboardTest.obj
 
 # target to build an object file
-test/PSUFixture.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj
-.PHONY : test/PSUFixture.cpp.obj
+test/MotherboardTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj
+.PHONY : test/MotherboardTest.cpp.obj
 
-test/PSUFixture.i: test/PSUFixture.cpp.i
+test/MotherboardTest.i: test/MotherboardTest.cpp.i
 
-.PHONY : test/PSUFixture.i
+.PHONY : test/MotherboardTest.i
 
 # target to preprocess a source file
-test/PSUFixture.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.i
-.PHONY : test/PSUFixture.cpp.i
+test/MotherboardTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.i
+.PHONY : test/MotherboardTest.cpp.i
 
-test/PSUFixture.s: test/PSUFixture.cpp.s
+test/MotherboardTest.s: test/MotherboardTest.cpp.s
 
-.PHONY : test/PSUFixture.s
+.PHONY : test/MotherboardTest.s
 
 # target to generate assembly for a file
-test/PSUFixture.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.s
-.PHONY : test/PSUFixture.cpp.s
+test/MotherboardTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.s
+.PHONY : test/MotherboardTest.cpp.s
 
 test/PSUTest.obj: test/PSUTest.cpp.obj
 
@@ -757,6 +757,60 @@ test/PSUTest.s: test/PSUTest.cpp.s
 test/PSUTest.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.s
 .PHONY : test/PSUTest.cpp.s
+
+test/RAMTest.obj: test/RAMTest.cpp.obj
+
+.PHONY : test/RAMTest.obj
+
+# target to build an object file
+test/RAMTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj
+.PHONY : test/RAMTest.cpp.obj
+
+test/RAMTest.i: test/RAMTest.cpp.i
+
+.PHONY : test/RAMTest.i
+
+# target to preprocess a source file
+test/RAMTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.i
+.PHONY : test/RAMTest.cpp.i
+
+test/RAMTest.s: test/RAMTest.cpp.s
+
+.PHONY : test/RAMTest.s
+
+# target to generate assembly for a file
+test/RAMTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.s
+.PHONY : test/RAMTest.cpp.s
+
+test/StorageTest.obj: test/StorageTest.cpp.obj
+
+.PHONY : test/StorageTest.obj
+
+# target to build an object file
+test/StorageTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj
+.PHONY : test/StorageTest.cpp.obj
+
+test/StorageTest.i: test/StorageTest.cpp.i
+
+.PHONY : test/StorageTest.i
+
+# target to preprocess a source file
+test/StorageTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.i
+.PHONY : test/StorageTest.cpp.i
+
+test/StorageTest.s: test/StorageTest.cpp.s
+
+.PHONY : test/StorageTest.s
+
+# target to generate assembly for a file
+test/StorageTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.s
+.PHONY : test/StorageTest.cpp.s
 
 # Help Target
 help:
@@ -811,30 +865,36 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... test/CPUFixture.obj
-	@echo ... test/CPUFixture.i
-	@echo ... test/CPUFixture.s
+	@echo ... test/AssembledPCDecoratorTest.obj
+	@echo ... test/AssembledPCDecoratorTest.i
+	@echo ... test/AssembledPCDecoratorTest.s
+	@echo ... test/AssembledPCTest.obj
+	@echo ... test/AssembledPCTest.i
+	@echo ... test/AssembledPCTest.s
 	@echo ... test/CPUTest.obj
 	@echo ... test/CPUTest.i
 	@echo ... test/CPUTest.s
-	@echo ... test/CaseFixture.obj
-	@echo ... test/CaseFixture.i
-	@echo ... test/CaseFixture.s
 	@echo ... test/CaseTest.obj
 	@echo ... test/CaseTest.i
 	@echo ... test/CaseTest.s
-	@echo ... test/GraphicCardFixture.obj
-	@echo ... test/GraphicCardFixture.i
-	@echo ... test/GraphicCardFixture.s
+	@echo ... test/ComponentTest.obj
+	@echo ... test/ComponentTest.i
+	@echo ... test/ComponentTest.s
 	@echo ... test/GraphicCardTest.obj
 	@echo ... test/GraphicCardTest.i
 	@echo ... test/GraphicCardTest.s
-	@echo ... test/PSUFixture.obj
-	@echo ... test/PSUFixture.i
-	@echo ... test/PSUFixture.s
+	@echo ... test/MotherboardTest.obj
+	@echo ... test/MotherboardTest.i
+	@echo ... test/MotherboardTest.s
 	@echo ... test/PSUTest.obj
 	@echo ... test/PSUTest.i
 	@echo ... test/PSUTest.s
+	@echo ... test/RAMTest.obj
+	@echo ... test/RAMTest.i
+	@echo ... test/RAMTest.s
+	@echo ... test/StorageTest.obj
+	@echo ... test/StorageTest.i
+	@echo ... test/StorageTest.s
 .PHONY : help
 
 

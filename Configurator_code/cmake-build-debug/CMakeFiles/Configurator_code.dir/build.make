@@ -381,35 +381,10 @@ CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj.provides: CMakeFiles/Confi
 CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj
 
 
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj: ../test/CPUFixture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\CPUFixture.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CPUFixture.cpp
-
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CPUFixture.cpp > CMakeFiles\Configurator_code.dir\test\CPUFixture.cpp.i
-
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CPUFixture.cpp -o CMakeFiles\Configurator_code.dir\test\CPUFixture.cpp.s
-
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.requires
-
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.provides.build
-.PHONY : CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.provides
-
-CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj
-
-
 CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
 CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
 CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj: ../test/GraphicCardTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\GraphicCardTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\GraphicCardTest.cpp
 
 CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.i: cmake_force
@@ -431,35 +406,10 @@ CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj.provides: CMakeFil
 CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj
 
 
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj: ../test/GraphicCardFixture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\GraphicCardFixture.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\GraphicCardFixture.cpp
-
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\GraphicCardFixture.cpp > CMakeFiles\Configurator_code.dir\test\GraphicCardFixture.cpp.i
-
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\GraphicCardFixture.cpp -o CMakeFiles\Configurator_code.dir\test\GraphicCardFixture.cpp.s
-
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.requires
-
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.provides.build
-.PHONY : CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.provides
-
-CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj
-
-
 CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
 CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
 CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj: ../test/PSUTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\PSUTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\PSUTest.cpp
 
 CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.i: cmake_force
@@ -481,35 +431,10 @@ CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj.provides: CMakeFiles/Confi
 CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj
 
 
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj: ../test/PSUFixture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\PSUFixture.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\PSUFixture.cpp
-
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\PSUFixture.cpp > CMakeFiles\Configurator_code.dir\test\PSUFixture.cpp.i
-
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\PSUFixture.cpp -o CMakeFiles\Configurator_code.dir\test\PSUFixture.cpp.s
-
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.requires
-
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.provides.build
-.PHONY : CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.provides
-
-CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj
-
-
 CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
 CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
 CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj: ../test/CaseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\CaseTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CaseTest.cpp
 
 CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.i: cmake_force
@@ -531,29 +456,154 @@ CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj.provides: CMakeFiles/Conf
 CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj
 
 
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj: ../test/CaseFixture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\CaseFixture.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CaseFixture.cpp
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj: ../test/MotherboardTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\MotherboardTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\MotherboardTest.cpp
 
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CaseFixture.cpp > CMakeFiles\Configurator_code.dir\test\CaseFixture.cpp.i
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\MotherboardTest.cpp > CMakeFiles\Configurator_code.dir\test\MotherboardTest.cpp.i
 
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\CaseFixture.cpp -o CMakeFiles\Configurator_code.dir\test\CaseFixture.cpp.s
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\MotherboardTest.cpp -o CMakeFiles\Configurator_code.dir\test\MotherboardTest.cpp.s
 
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.requires:
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.requires
+.PHONY : CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.requires
 
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.provides.build
-.PHONY : CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.provides
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.provides
 
-CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj
+CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj
+
+
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj: ../test/RAMTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\RAMTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\RAMTest.cpp
+
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\RAMTest.cpp > CMakeFiles\Configurator_code.dir\test\RAMTest.cpp.i
+
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\RAMTest.cpp -o CMakeFiles\Configurator_code.dir\test\RAMTest.cpp.s
+
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj
+
+
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj: ../test/StorageTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\StorageTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\StorageTest.cpp
+
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\StorageTest.cpp > CMakeFiles\Configurator_code.dir\test\StorageTest.cpp.i
+
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\StorageTest.cpp -o CMakeFiles\Configurator_code.dir\test\StorageTest.cpp.s
+
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj
+
+
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj: ../test/ComponentTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\ComponentTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\ComponentTest.cpp
+
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\ComponentTest.cpp > CMakeFiles\Configurator_code.dir\test\ComponentTest.cpp.i
+
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\ComponentTest.cpp -o CMakeFiles\Configurator_code.dir\test\ComponentTest.cpp.s
+
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj
+
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj: ../test/AssembledPCTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\AssembledPCTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\AssembledPCTest.cpp
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\AssembledPCTest.cpp > CMakeFiles\Configurator_code.dir\test\AssembledPCTest.cpp.i
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\AssembledPCTest.cpp -o CMakeFiles\Configurator_code.dir\test\AssembledPCTest.cpp.s
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj
+
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj: CMakeFiles/Configurator_code.dir/flags.make
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj: CMakeFiles/Configurator_code.dir/includes_CXX.rsp
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj: ../test/AssembledPCDecoratorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Configurator_code.dir\test\AssembledPCDecoratorTest.cpp.obj -c C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\AssembledPCDecoratorTest.cpp
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\AssembledPCDecoratorTest.cpp > CMakeFiles\Configurator_code.dir\test\AssembledPCDecoratorTest.cpp.i
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\test\AssembledPCDecoratorTest.cpp -o CMakeFiles\Configurator_code.dir\test\AssembledPCDecoratorTest.cpp.s
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.requires
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.provides: CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.provides.build
+.PHONY : CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.provides
+
+CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.provides.build: CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj
 
 
 # Object files for target Configurator_code
@@ -571,13 +621,15 @@ Configurator_code_OBJECTS = \
 "CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/Controller.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj" \
-"CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj" \
-"CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj" \
-"CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj" \
 "CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj" \
-"CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj"
+"CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj" \
+"CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj"
 
 # External object files for target Configurator_code
 Configurator_code_EXTERNAL_OBJECTS =
@@ -595,19 +647,21 @@ Configurator_code.exe: CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/Controller.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj
-Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj
-Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj
-Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj
-Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj
+Configurator_code.exe: CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/build.make
 Configurator_code.exe: test/lib/googletest/googlemock/gtest/libgtest.a
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/linklibs.rsp
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/objects1.rsp
 Configurator_code.exe: CMakeFiles/Configurator_code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Configurator_code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Configurator_code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Configurator_code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -628,13 +682,15 @@ CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/Asse
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/AssembledPCDecorator.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/Controller.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj.requires
-CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj.requires
-CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj.requires
-CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj.requires
 CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj.requires
-CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/MotherboardTest.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/RAMTest.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/StorageTest.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/ComponentTest.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/AssembledPCTest.cpp.obj.requires
+CMakeFiles/Configurator_code.dir/requires: CMakeFiles/Configurator_code.dir/test/AssembledPCDecoratorTest.cpp.obj.requires
 
 .PHONY : CMakeFiles/Configurator_code.dir/requires
 

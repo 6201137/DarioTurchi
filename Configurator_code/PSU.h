@@ -11,13 +11,9 @@
 
 class PSU : public Component {
 public:
-    PSU(const std::string &name, float price, int power, int power2use);
+    PSU(const std::string &name, float price, int power);
 
     virtual ~PSU();
-
-    int getPower2use() const;
-private:
-    int power2use;
 
 };
 
