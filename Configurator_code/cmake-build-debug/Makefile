@@ -47,13 +47,46 @@ RM = "C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\aleda\CLionProjects\Configurator_code
+CMAKE_SOURCE_DIR = C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\aleda\CLionProjects\Configurator_code\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +110,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\CLionProjects\Configurator_code\cmake-build-debug\CMakeFiles C:\Users\aleda\CLionProjects\Configurator_code\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\CLionProjects\Configurator_code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator_code\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,13 +166,65 @@ Configurator_code/fast:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/build
 .PHONY : Configurator_code/fast
 
+#=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
+# Target rules for targets named runPSUTests
+
+# Build rule for target.
+runPSUTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 runPSUTests
+.PHONY : runPSUTests
+
+# fast build rule for target.
+runPSUTests/fast:
+	$(MAKE) -f test\CMakeFiles\runPSUTests.dir\build.make test/CMakeFiles/runPSUTests.dir/build
+.PHONY : runPSUTests/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 AssembledPC.obj: AssembledPC.cpp.obj
 
 .PHONY : AssembledPC.obj
 
 # target to build an object file
 AssembledPC.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPC.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/AssembledPC.cpp.obj
 .PHONY : AssembledPC.cpp.obj
 
 AssembledPC.i: AssembledPC.cpp.i
@@ -137,7 +233,7 @@ AssembledPC.i: AssembledPC.cpp.i
 
 # target to preprocess a source file
 AssembledPC.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPC.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/AssembledPC.cpp.i
 .PHONY : AssembledPC.cpp.i
 
 AssembledPC.s: AssembledPC.cpp.s
@@ -146,7 +242,7 @@ AssembledPC.s: AssembledPC.cpp.s
 
 # target to generate assembly for a file
 AssembledPC.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/AssembledPC.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/AssembledPC.cpp.s
 .PHONY : AssembledPC.cpp.s
 
 CPU.obj: CPU.cpp.obj
@@ -155,7 +251,7 @@ CPU.obj: CPU.cpp.obj
 
 # target to build an object file
 CPU.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/CPU.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/CPU.cpp.obj
 .PHONY : CPU.cpp.obj
 
 CPU.i: CPU.cpp.i
@@ -164,7 +260,7 @@ CPU.i: CPU.cpp.i
 
 # target to preprocess a source file
 CPU.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/CPU.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/CPU.cpp.i
 .PHONY : CPU.cpp.i
 
 CPU.s: CPU.cpp.s
@@ -173,7 +269,7 @@ CPU.s: CPU.cpp.s
 
 # target to generate assembly for a file
 CPU.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/CPU.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/CPU.cpp.s
 .PHONY : CPU.cpp.s
 
 Case.obj: Case.cpp.obj
@@ -182,7 +278,7 @@ Case.obj: Case.cpp.obj
 
 # target to build an object file
 Case.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Case.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Case.cpp.obj
 .PHONY : Case.cpp.obj
 
 Case.i: Case.cpp.i
@@ -191,7 +287,7 @@ Case.i: Case.cpp.i
 
 # target to preprocess a source file
 Case.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Case.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Case.cpp.i
 .PHONY : Case.cpp.i
 
 Case.s: Case.cpp.s
@@ -200,7 +296,7 @@ Case.s: Case.cpp.s
 
 # target to generate assembly for a file
 Case.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Case.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Case.cpp.s
 .PHONY : Case.cpp.s
 
 Component.obj: Component.cpp.obj
@@ -209,7 +305,7 @@ Component.obj: Component.cpp.obj
 
 # target to build an object file
 Component.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Component.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Component.cpp.obj
 .PHONY : Component.cpp.obj
 
 Component.i: Component.cpp.i
@@ -218,7 +314,7 @@ Component.i: Component.cpp.i
 
 # target to preprocess a source file
 Component.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Component.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Component.cpp.i
 .PHONY : Component.cpp.i
 
 Component.s: Component.cpp.s
@@ -227,7 +323,7 @@ Component.s: Component.cpp.s
 
 # target to generate assembly for a file
 Component.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Component.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Component.cpp.s
 .PHONY : Component.cpp.s
 
 GraphicCard.obj: GraphicCard.cpp.obj
@@ -236,7 +332,7 @@ GraphicCard.obj: GraphicCard.cpp.obj
 
 # target to build an object file
 GraphicCard.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/GraphicCard.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GraphicCard.cpp.obj
 .PHONY : GraphicCard.cpp.obj
 
 GraphicCard.i: GraphicCard.cpp.i
@@ -245,7 +341,7 @@ GraphicCard.i: GraphicCard.cpp.i
 
 # target to preprocess a source file
 GraphicCard.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/GraphicCard.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GraphicCard.cpp.i
 .PHONY : GraphicCard.cpp.i
 
 GraphicCard.s: GraphicCard.cpp.s
@@ -254,7 +350,7 @@ GraphicCard.s: GraphicCard.cpp.s
 
 # target to generate assembly for a file
 GraphicCard.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/GraphicCard.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GraphicCard.cpp.s
 .PHONY : GraphicCard.cpp.s
 
 Motherboard.obj: Motherboard.cpp.obj
@@ -263,7 +359,7 @@ Motherboard.obj: Motherboard.cpp.obj
 
 # target to build an object file
 Motherboard.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Motherboard.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Motherboard.cpp.obj
 .PHONY : Motherboard.cpp.obj
 
 Motherboard.i: Motherboard.cpp.i
@@ -272,7 +368,7 @@ Motherboard.i: Motherboard.cpp.i
 
 # target to preprocess a source file
 Motherboard.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Motherboard.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Motherboard.cpp.i
 .PHONY : Motherboard.cpp.i
 
 Motherboard.s: Motherboard.cpp.s
@@ -281,7 +377,7 @@ Motherboard.s: Motherboard.cpp.s
 
 # target to generate assembly for a file
 Motherboard.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Motherboard.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Motherboard.cpp.s
 .PHONY : Motherboard.cpp.s
 
 PSU.obj: PSU.cpp.obj
@@ -290,7 +386,7 @@ PSU.obj: PSU.cpp.obj
 
 # target to build an object file
 PSU.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/PSU.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/PSU.cpp.obj
 .PHONY : PSU.cpp.obj
 
 PSU.i: PSU.cpp.i
@@ -299,7 +395,7 @@ PSU.i: PSU.cpp.i
 
 # target to preprocess a source file
 PSU.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/PSU.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/PSU.cpp.i
 .PHONY : PSU.cpp.i
 
 PSU.s: PSU.cpp.s
@@ -308,7 +404,7 @@ PSU.s: PSU.cpp.s
 
 # target to generate assembly for a file
 PSU.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/PSU.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/PSU.cpp.s
 .PHONY : PSU.cpp.s
 
 RAM.obj: RAM.cpp.obj
@@ -317,7 +413,7 @@ RAM.obj: RAM.cpp.obj
 
 # target to build an object file
 RAM.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/RAM.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/RAM.cpp.obj
 .PHONY : RAM.cpp.obj
 
 RAM.i: RAM.cpp.i
@@ -326,7 +422,7 @@ RAM.i: RAM.cpp.i
 
 # target to preprocess a source file
 RAM.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/RAM.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/RAM.cpp.i
 .PHONY : RAM.cpp.i
 
 RAM.s: RAM.cpp.s
@@ -335,7 +431,7 @@ RAM.s: RAM.cpp.s
 
 # target to generate assembly for a file
 RAM.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/RAM.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/RAM.cpp.s
 .PHONY : RAM.cpp.s
 
 Storage.obj: Storage.cpp.obj
@@ -344,7 +440,7 @@ Storage.obj: Storage.cpp.obj
 
 # target to build an object file
 Storage.cpp.obj:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Storage.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Storage.cpp.obj
 .PHONY : Storage.cpp.obj
 
 Storage.i: Storage.cpp.i
@@ -353,7 +449,7 @@ Storage.i: Storage.cpp.i
 
 # target to preprocess a source file
 Storage.cpp.i:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Storage.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Storage.cpp.i
 .PHONY : Storage.cpp.i
 
 Storage.s: Storage.cpp.s
@@ -362,7 +458,7 @@ Storage.s: Storage.cpp.s
 
 # target to generate assembly for a file
 Storage.cpp.s:
-	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/Storage.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Storage.cpp.s
 .PHONY : Storage.cpp.s
 
 main.obj: main.cpp.obj
@@ -372,6 +468,7 @@ main.obj: main.cpp.obj
 # target to build an object file
 main.cpp.obj:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -381,6 +478,7 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -390,6 +488,7 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -399,8 +498,16 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Configurator_code
+	@echo ... list_install_components
+	@echo ... core
+	@echo ... install/local
+	@echo ... install
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... install/strip
+	@echo ... runPSUTests
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... AssembledPC.obj
 	@echo ... AssembledPC.i
 	@echo ... AssembledPC.s

@@ -5,21 +5,21 @@
 		<Option title="Configurator_code"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Configurator_code">
-				<Option output="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Configurator_code.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug"/>
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Configurator_code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Configurator_code"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Configurator_code"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Configurator_code/fast">
-				<Option output="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Configurator_code.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug"/>
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Configurator_code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,95 +53,343 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Configurator_code/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Configurator_code/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/CLionProjects/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runPSUTests">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/runPSUTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/include"/>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runPSUTests"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runPSUTests/fast">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/runPSUTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/include"/>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runPSUTests/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/include"/>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/include"/>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/include"/>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/include"/>
+					<Add directory="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev2/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/AssembledPC.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPC.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/AssembledPC.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/AssembledPC.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/CPU.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/CPU.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/CPU.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/CPU.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Case.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Case.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Case.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Case.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Component.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Component.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Component.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Component.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/ComponentsDatabase.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/ComponentsDatabase.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/GraphicCard.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/GraphicCard.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/GraphicCard.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/GraphicCard.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Motherboard.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Motherboard.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Motherboard.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Motherboard.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/PSU.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/PSU.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/PSU.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/RAM.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/RAM.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/RAM.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Storage.cpp">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Storage.cpp">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/Storage.h">
-			<Option target="Configurator_code"/>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/Storage.h">
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/main.cpp">
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/main.cpp">
 			<Option target="Configurator_code"/>
+			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/aleda/CLionProjects/Configurator_code/CMakeLists.txt">
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/PSUFixture.cpp">
+			<Option target="runPSUTests"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/PSUTest.cpp">
+			<Option target="runPSUTests"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/aleda/Documents/GitHub/Configurator-Git/Configurator_code/test/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
