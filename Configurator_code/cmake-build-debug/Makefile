@@ -55,6 +55,29 @@ CMAKE_BINARY_DIR = C:\Users\aleda\Documents\GitHub\Configurator-Git\Configurator
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +99,27 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -121,6 +165,58 @@ Configurator_code: cmake_check_build_system
 Configurator_code/fast:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/build
 .PHONY : Configurator_code/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f test\lib\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f test\lib\googletest\googlemock\CMakeFiles\gmock.dir\build.make test/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f test\lib\googletest\googlemock\gtest\CMakeFiles\gtest.dir\build.make test/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f test\lib\googletest\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 AssembledPC.obj: AssembledPC.cpp.obj
 
@@ -446,6 +542,222 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/CPUFixture.obj: test/CPUFixture.cpp.obj
+
+.PHONY : test/CPUFixture.obj
+
+# target to build an object file
+test/CPUFixture.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.obj
+.PHONY : test/CPUFixture.cpp.obj
+
+test/CPUFixture.i: test/CPUFixture.cpp.i
+
+.PHONY : test/CPUFixture.i
+
+# target to preprocess a source file
+test/CPUFixture.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.i
+.PHONY : test/CPUFixture.cpp.i
+
+test/CPUFixture.s: test/CPUFixture.cpp.s
+
+.PHONY : test/CPUFixture.s
+
+# target to generate assembly for a file
+test/CPUFixture.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUFixture.cpp.s
+.PHONY : test/CPUFixture.cpp.s
+
+test/CPUTest.obj: test/CPUTest.cpp.obj
+
+.PHONY : test/CPUTest.obj
+
+# target to build an object file
+test/CPUTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.obj
+.PHONY : test/CPUTest.cpp.obj
+
+test/CPUTest.i: test/CPUTest.cpp.i
+
+.PHONY : test/CPUTest.i
+
+# target to preprocess a source file
+test/CPUTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.i
+.PHONY : test/CPUTest.cpp.i
+
+test/CPUTest.s: test/CPUTest.cpp.s
+
+.PHONY : test/CPUTest.s
+
+# target to generate assembly for a file
+test/CPUTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CPUTest.cpp.s
+.PHONY : test/CPUTest.cpp.s
+
+test/CaseFixture.obj: test/CaseFixture.cpp.obj
+
+.PHONY : test/CaseFixture.obj
+
+# target to build an object file
+test/CaseFixture.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.obj
+.PHONY : test/CaseFixture.cpp.obj
+
+test/CaseFixture.i: test/CaseFixture.cpp.i
+
+.PHONY : test/CaseFixture.i
+
+# target to preprocess a source file
+test/CaseFixture.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.i
+.PHONY : test/CaseFixture.cpp.i
+
+test/CaseFixture.s: test/CaseFixture.cpp.s
+
+.PHONY : test/CaseFixture.s
+
+# target to generate assembly for a file
+test/CaseFixture.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseFixture.cpp.s
+.PHONY : test/CaseFixture.cpp.s
+
+test/CaseTest.obj: test/CaseTest.cpp.obj
+
+.PHONY : test/CaseTest.obj
+
+# target to build an object file
+test/CaseTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.obj
+.PHONY : test/CaseTest.cpp.obj
+
+test/CaseTest.i: test/CaseTest.cpp.i
+
+.PHONY : test/CaseTest.i
+
+# target to preprocess a source file
+test/CaseTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.i
+.PHONY : test/CaseTest.cpp.i
+
+test/CaseTest.s: test/CaseTest.cpp.s
+
+.PHONY : test/CaseTest.s
+
+# target to generate assembly for a file
+test/CaseTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/CaseTest.cpp.s
+.PHONY : test/CaseTest.cpp.s
+
+test/GraphicCardFixture.obj: test/GraphicCardFixture.cpp.obj
+
+.PHONY : test/GraphicCardFixture.obj
+
+# target to build an object file
+test/GraphicCardFixture.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.obj
+.PHONY : test/GraphicCardFixture.cpp.obj
+
+test/GraphicCardFixture.i: test/GraphicCardFixture.cpp.i
+
+.PHONY : test/GraphicCardFixture.i
+
+# target to preprocess a source file
+test/GraphicCardFixture.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.i
+.PHONY : test/GraphicCardFixture.cpp.i
+
+test/GraphicCardFixture.s: test/GraphicCardFixture.cpp.s
+
+.PHONY : test/GraphicCardFixture.s
+
+# target to generate assembly for a file
+test/GraphicCardFixture.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardFixture.cpp.s
+.PHONY : test/GraphicCardFixture.cpp.s
+
+test/GraphicCardTest.obj: test/GraphicCardTest.cpp.obj
+
+.PHONY : test/GraphicCardTest.obj
+
+# target to build an object file
+test/GraphicCardTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.obj
+.PHONY : test/GraphicCardTest.cpp.obj
+
+test/GraphicCardTest.i: test/GraphicCardTest.cpp.i
+
+.PHONY : test/GraphicCardTest.i
+
+# target to preprocess a source file
+test/GraphicCardTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.i
+.PHONY : test/GraphicCardTest.cpp.i
+
+test/GraphicCardTest.s: test/GraphicCardTest.cpp.s
+
+.PHONY : test/GraphicCardTest.s
+
+# target to generate assembly for a file
+test/GraphicCardTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/GraphicCardTest.cpp.s
+.PHONY : test/GraphicCardTest.cpp.s
+
+test/PSUFixture.obj: test/PSUFixture.cpp.obj
+
+.PHONY : test/PSUFixture.obj
+
+# target to build an object file
+test/PSUFixture.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.obj
+.PHONY : test/PSUFixture.cpp.obj
+
+test/PSUFixture.i: test/PSUFixture.cpp.i
+
+.PHONY : test/PSUFixture.i
+
+# target to preprocess a source file
+test/PSUFixture.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.i
+.PHONY : test/PSUFixture.cpp.i
+
+test/PSUFixture.s: test/PSUFixture.cpp.s
+
+.PHONY : test/PSUFixture.s
+
+# target to generate assembly for a file
+test/PSUFixture.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUFixture.cpp.s
+.PHONY : test/PSUFixture.cpp.s
+
+test/PSUTest.obj: test/PSUTest.cpp.obj
+
+.PHONY : test/PSUTest.obj
+
+# target to build an object file
+test/PSUTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.obj
+.PHONY : test/PSUTest.cpp.obj
+
+test/PSUTest.i: test/PSUTest.cpp.i
+
+.PHONY : test/PSUTest.i
+
+# target to preprocess a source file
+test/PSUTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.i
+.PHONY : test/PSUTest.cpp.i
+
+test/PSUTest.s: test/PSUTest.cpp.s
+
+.PHONY : test/PSUTest.s
+
+# target to generate assembly for a file
+test/PSUTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Configurator_code.dir\build.make CMakeFiles/Configurator_code.dir/test/PSUTest.cpp.s
+.PHONY : test/PSUTest.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -453,8 +765,16 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Configurator_code
+	@echo ... install/local
+	@echo ... install
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... list_install_components
+	@echo ... install/strip
+	@echo ... gmock_main
+	@echo ... gmock
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... AssembledPC.obj
 	@echo ... AssembledPC.i
 	@echo ... AssembledPC.s
@@ -491,6 +811,30 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test/CPUFixture.obj
+	@echo ... test/CPUFixture.i
+	@echo ... test/CPUFixture.s
+	@echo ... test/CPUTest.obj
+	@echo ... test/CPUTest.i
+	@echo ... test/CPUTest.s
+	@echo ... test/CaseFixture.obj
+	@echo ... test/CaseFixture.i
+	@echo ... test/CaseFixture.s
+	@echo ... test/CaseTest.obj
+	@echo ... test/CaseTest.i
+	@echo ... test/CaseTest.s
+	@echo ... test/GraphicCardFixture.obj
+	@echo ... test/GraphicCardFixture.i
+	@echo ... test/GraphicCardFixture.s
+	@echo ... test/GraphicCardTest.obj
+	@echo ... test/GraphicCardTest.i
+	@echo ... test/GraphicCardTest.s
+	@echo ... test/PSUFixture.obj
+	@echo ... test/PSUFixture.i
+	@echo ... test/PSUFixture.s
+	@echo ... test/PSUTest.obj
+	@echo ... test/PSUTest.i
+	@echo ... test/PSUTest.s
 .PHONY : help
 
 
