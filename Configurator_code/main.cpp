@@ -77,12 +77,12 @@ Case Corsair_Carbide_Air_540("Corsair Carbide Air 540", 149.01, 10,"ATX");
 int main() {
     std::cout<<STDCPU.isOc()<<std::endl;
     std::cout<<Asus_M5a78l3_0.CompatibilityCheck(&AMD_FX4100)<<std::endl;
-    std::cout<<Corsair_Carbide_Air_540.CompatibilityCheck(&Asus_M5a78l3_0);
-    std::cout<<Kingston_HyperX_Fury_2x4.CompatibilityCheck(&Asus_M5a78l3_0);
-    AssembledPC ASS(&AMD_FX4100,&Asus7750,&Asus_M5a78l3_0,&Corsair_Carbide_Air_540, &Kingston_HyperX_Fury_2x4, &WD_Blue_1TB);
-    AssembledPCDecorator COSO(&ASS);
-    COSO.setPSU1(&XFX_550TS);
-    std::cout<<COSO.totalCost()<<std::endl;
-    std::cout<<COSO.totalWatt()<<std::endl;
+    std::cout<<Corsair_Carbide_Air_540.CompatibilityCheck(&Asus_M5a78l3_0)<<std::endl;
+    std::cout<<Kingston_HyperX_Fury_2x4.CompatibilityCheck(&Asus_M5a78l3_0)<<std::endl;
+    AssembledPC PC(&AMD_FX4100,&Asus7750,&Asus_M5a78l3_0,&Corsair_Carbide_Air_540, &Kingston_HyperX_Fury_2x4, &WD_Blue_1TB);
+    AssembledPCDecorator deco(&PC);
+    deco.setPSU1(&XFX_550TS);
+    std::cout<<deco.totalCost()<<std::endl;
+    std::cout<<deco.totalWatt()<<std::endl;
 
 }

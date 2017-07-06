@@ -19,6 +19,10 @@ public:
     bool compatibilityCheck();
     void setPSU1(PSU *PSU1);
 
+    AssembledPC *get_assembledPC() const;
+
+    void set_assembledPC(AssembledPC *_assembledPC);
+
 private:
     AssembledPC* _assembledPC;
     PSU* PSU1;

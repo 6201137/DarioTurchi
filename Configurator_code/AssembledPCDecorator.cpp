@@ -46,3 +46,11 @@ int AssembledPCDecorator::totalWatt() {
 void AssembledPCDecorator::setPSU1(PSU *PSU1) {
     AssembledPCDecorator::PSU1 = PSU1;
 }
+
+AssembledPC *AssembledPCDecorator::get_assembledPC() const {
+    return _assembledPC;
+}
+
+void AssembledPCDecorator::set_assembledPC(AssembledPC *_assembledPC) {
+    AssembledPCDecorator::_assembledPC = _assembledPC;
+}
